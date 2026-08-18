@@ -1,0 +1,19 @@
+-Generics is defined as the datatype that is stored in the
+dataset.
+-It helps to ensure the type safety.
+-Each and every element in the data set should have
+  the same datatype.
+ -Inorder to store the same dataytype generics are used
+  while declaring the datastring.
+-Each object should be of same datatype so that it doesn't
+ give errors and for better practices.
+
+ Example -
+
+ Map<Integer , String>
+ List<String>
+
+ List<Objects> - In this case , the data structure accepts
+                 objects as it data.
+                 so objects is only datatype it is used and
+                 do store in it.
