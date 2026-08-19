@@ -1,7 +1,9 @@
-package one.ConstructorsDemo;
+package ClassesConstructorsDemo.classesDemo;
+
 
 public class Car {
-    String brand ;
+
+    String brand;
     String color;
     int speed;
 
@@ -10,4 +12,10 @@ public class Car {
         this.color = color;
         this.speed = speed;
     }
+
+    public void drive(){
+        System.out.println(brand + " is driving at "+ speed);
+    }
+
+
 }
